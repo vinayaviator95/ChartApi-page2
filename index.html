@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title>ChartApi-Page2</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row row1">
+        <div class="col">
+            <table>
+                <tbody>
+                  <tr>
+                    <td class="task">TOTAL HOURS</td>
+                    <td class="hours">22</td>
+                  </tr>
+                  <tr>
+                    <td class="task">MACHINE ON</td>
+                    <td class="hours">18:33:12</td>
+                  </tr>
+                  <tr>
+                    <td class="task">PRODUCTION TIME</td>
+                    <td class="hours">08:45:06</td>
+                  </tr>
+                  <tr>
+                    <td class="task">TOTAL JOB CHANGE TIME(HRS./SEC)</td>
+                    <td class="hours">03:53:00</td>
+                  </tr>
+                  <tr>
+                    <td class="task">LOSS HOURS</td>
+                    <td class="hours">09:48:06</td>
+                  </tr>
+                  <tr>
+                    <td class="task">MHR LOSS (IN RS)</td>
+                    <td class="hours">3430.6</td>
+                  </tr>
+                  <tr>
+                    <td class="task">FIRST CYCLE</td>
+                    <td class="hours">00:05:26</td>
+                  </tr>
+                  <tr>
+                    <td class="task"></td>
+                    <td class="hours">01:33:34</td>
+                  </tr>
+                </tbody>
+              </table>
+
+        </div>
+        <div class="col">
+            <table>
+                <tbody>
+                  <tr>
+                    <td class="task">TOTAL PRODUCTION (NOS.)</td>
+                    <td class="hours">813</td>
+                  </tr>
+                  <tr>
+                    <td class="task">TARGET PRODUCTION (NOS.)</td>
+                    <td class="hours">1284</td>
+                  </tr>
+                  <tr>
+                    <td class="task">OEE</td>
+                    <td class="hours">40%</td>
+                  </tr>
+                  <tr>
+                    <td class="task">AVAILABILITY</td>
+                    <td class="hours">85%</td>
+                  </tr>
+                  <tr>
+                    <td class="task">PERFORMANCE</td>
+                    <td class="hours">47%</td>
+                  </tr>
+                  <tr>
+                    <td class="task"></td>
+                    <td class="hours"></td>
+                  </tr>
+                  <tr>
+                    <td class="task"></td>
+                    <td class="hours"></td>
+                  </tr>
+                  <tr>
+                    <td class="task"></td>
+                    <td class="hours"></td>
+                  </tr>
+                </tbody>
+              </table>
+
+        </div>
+        <div class="col">
+            <div class="col">
+                <table>
+                    <tbody>
+                      <tr>
+                        <td class="task">MODE CYCLE TIME</td>
+                        <td class="hours">39</td>
+                      </tr>
+                      <tr>
+                        <td class="task">AVG.JOB CHANGE TIME(SEC.)</td>
+                        <td class="hours">13:03</td>
+                      </tr>
+                      <tr>
+                        <td class="task">PRODUCTION/HOUR</td>
+                        <td class="hours">58.01</td>
+                      </tr>
+                      <tr>
+                        <td class="task"></td>
+                        <td class="hours">0:0:0</td>
+                      </tr>
+                      <tr>
+                        <td class="task"></td>
+                        <td class="hours">0:0:0</td>
+    
+                      </tr>
+                      <tr>
+                        <td class="task"></td>
+                        <td class="hours">0:0:0</td>
+    
+                      </tr>
+                      <tr>
+                        <td class="task"></td>
+                        <td class="hours">0:0:0</td>
+    
+                      </tr>
+                      <tr>
+                        <td class="task"></td>
+                        <td class="hours">0:0:0</td>
+    
+                      </tr>
+                    </tbody>
+                  </table>
+        </div>
+    </div>
+    <div class="row row2">
+        <div class="col-3">
+
+        </div>
+        <div class="col-5">
+            <div>
+                <canvas id="pieChart"></canvas>
+              </div>
+               
+        </div>
+        <div class="col-4">
+
+        </div>
+    </div>
+    <div class="row row3">
+        <div class="col-12">
+            <div>
+                <canvas id="stackedBarChart"></canvas>
+              </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
