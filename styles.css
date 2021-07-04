@@ -75,6 +75,6 @@ background-color: rgba(231,231,233,255) ;
 }
 
 #stackedBarChart{
-  height: 44vh!important ;
-  width: 100%!important;
+  height: 44vh;
+  width: 100%;
 }

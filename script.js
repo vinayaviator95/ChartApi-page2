@@ -77,6 +77,9 @@ var myChart = new Chart(stackedBarChart, {
               ],
             datasets: [
                 {
+                  
+                  // barPercentage: 0.5,
+                  // barThickness: 6,
                   label: "Hourly Production Count",
                   data: [57, 58, 56, 68, 70, 0, 58, 68, 68, 62, 64, 47, 0, 0, 0, 0, 0, 0, 0, 0, 46, 57, 34, 0],
                   hoverBackgroundColor:" rgba(65,105,226,255)",
@@ -84,6 +87,8 @@ var myChart = new Chart(stackedBarChart, {
                   backgroundColor: " rgba(65,105,226,255)",
                 },
                 {
+                  // barPercentage: 0.5,
+                  // barThickness: 6,
                   label: "Hourly Production Time (mins)",
                   data: [22, 22, 24, 16, 14, 0, 22, 17, 16, 20, 19, 31, 60, 60, 60, 60, 60, 11, 0, 1, 21, 23, 14, 0 ],
                   hoverBackgroundColor:"rgba(175,34,34,255)",
@@ -91,6 +96,8 @@ var myChart = new Chart(stackedBarChart, {
                   backgroundColor: "rgba(175,34,34,255)",
                 },
                 {
+                  // barPercentage: 0.5,
+                  // barThickness: 6,
                   label: "Hourly Idle time (mins)",
                   data: [37.6, 37.6, 35.8, 43.9, 43.9, 0, 38.3, 43.4, 43.8, 39.9, 41.1, 29, 0, 0, 0, 0, 0, 0, 0, 0.7, 29.9, 37.2, 20.6, 0],
                   hoverBackgroundColor:"rgba(59,179,113,255)",
@@ -101,12 +108,13 @@ var myChart = new Chart(stackedBarChart, {
         },
         options: {
           responsive: true,
+          maintainAspectRatio: false,
             scales: {
                 x: {
                   stacked: true,
+
                   grid: {
                     display: false,
-                    
                   },
                 },
                 y: {
