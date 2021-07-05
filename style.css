@@ -1,0 +1,127 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.tablediv {
+  /* height: 22vh; */
+  border: 0.5px solid rgba(231, 231, 233, 255);
+  border-radius: 10px;
+  background-color: rgba(231, 231, 233, 255);
+  margin-left:.2rem ;
+  margin-right: .2rem;
+}
+
+.cardone {
+  /* height: 20vh; */
+  font-size: 0.5rem;
+  width: 100%;
+}
+.task {
+  width: 70%;
+  border: 0.5px solid lightgrey;
+  background-color: rgba(231, 231, 233, 255);
+}
+.hours {
+  width: 30%;
+  background-color: white;
+  border: 0.5px solid lightgrey;
+}
+
+.cardtwo {
+  border: 1px solid grey;
+  border-radius: 0.5rem;
+  height: 28vh;
+}
+
+.piechart1 {
+  position: relative;
+}
+
+.ccheading-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ccheading {
+  font-size: 0.8rem;
+}
+
+.rowtwo_first-canvasdiv {
+  height: 23vh;
+}
+.rowtwo_second-canvasdiv {
+  height: 23vh;
+}
+.rowtwo_third-canvasdiv {
+  height: 23vh;
+}
+
+.cardthree {
+  height: 40vh;
+  border-radius: 10px;
+  border: 0.5px solid grey;
+}
+
+#stackedBarChart {
+  height: 44vh;
+  width: 100%;
+}
+.rowthree_first-canvasdiv {
+  height: 36vh;
+}
+
+.stackgraphtable {
+  width: 100%;
+  font-size: 0.7rem;
+}
+.stacktablecont {
+}
+.stacktablerow1 {
+  width: 100%;
+  color: rgba(65, 105, 226, 255);
+}
+
+.stacktablerow2 {
+  color: rgba(175, 34, 34, 255);
+}
+
+.stacktablerow3 {
+  color: rgba(59, 179, 113, 255);
+}
+.stacktablediv {
+  padding-left: 60px;
+  padding-right: 25px;
+}
+
+.stackgraphtable tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+}
+@media only screen and (max-width: 650px) {
+  .stacktablediv {
+    display: none;
+  }
+  .stackgraphtable {
+    display: none;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

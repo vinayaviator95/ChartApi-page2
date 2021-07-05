@@ -4,25 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <title>ChartApi-Page2</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Final</title>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row tablediv">
-        <div>
-       <span>SUMMARY OF DAY</span>
+        <div class="col-12">
+          <span style="font-size: 0.8rem">SUMMARY OF DAY</span>
         </div>
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  p-0">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0">
           <div class="cardone">
-            <table style="width: 100%;">
+            <table style="width: 100%">
               <tbody>
                 <tr>
                   <td class="task">TOTAL HOURS</td>
@@ -60,10 +60,9 @@
             </table>
           </div>
         </div>
-
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4  p-0">
+        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0">
           <div class="cardone">
-            <table style="width: 100%;">
+            <table style="width: 100%">
               <tbody>
                 <tr>
                   <td class="task">TOTAL PRODUCTION (NOS.)</td>
@@ -85,14 +84,13 @@
                   <td class="task">PERFORMANCE</td>
                   <td class="hours">47%</td>
                 </tr>
-             
               </tbody>
             </table>
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 p-0">
           <div class="cardone">
-            <table style="width: 100%;">
+            <table style="width: 100%">
               <tbody>
                 <tr>
                   <td class="task">MODE CYCLE TIME</td>
@@ -133,7 +131,14 @@
       </div>
 
       <div class="row row2">
-        <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3  piechart1 pt-2 pb-1">
+        <div
+          class="
+            col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3
+            piechart1
+            pt-2
+            pb-1
+          "
+        >
           <div class="cardtwo">
             <div class="ccheading-div mx-1 my-1">
               <span class="ccheading">Current Production</span>
@@ -145,7 +150,7 @@
           </div>
         </div>
         <div class="col-12 col-sm-12 col-md-9 col-lg-6 col-xl-6 pt-2 pb-1">
-          <div class="cardtwo ">
+          <div class="cardtwo">
             <div class="ccheading-div mx-1 my-1">
               <span class="ccheading">Downtime Analysis</span>
             </div>
@@ -170,15 +175,103 @@
       </div>
 
       <div class="row row3 mx-1">
-          <div class="col-12 cardthree p-0 px-2">
-            <div class="ccheading-div mx-1 my-1">
-              <span class="ccheading">Production Overview</span>
-            </div>
-            <hr style="margin: 0" />
-            <!-- style="position: relative; height:20vh; width:100vw" -->
-            <div class="rowthree_first-canvasdiv">
-              <canvas id="stackedBarChart"></canvas>
-            </div>
+        <div class="col-12 cardthree p-0 px-2">
+          <div class="ccheading-div mx-1 my-1">
+            <span class="ccheading">Production Overview</span>
+          </div>
+          <hr style="margin: 0" />
+          <!-- style="position: relative; height:20vh; width:100vw" -->
+          <div class="rowthree_first-canvasdiv">
+            <canvas id="stackedBarChart"></canvas>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="stacktablediv">
+            <table class="stackgraphtable">
+              <tr class="stacktablerow1">
+                <td class="stacktablecont">57</td>
+                <td class="stacktablecont">58</td>
+                <td class="stacktablecont">56</td>
+                <td class="stacktablecont">68</td>
+                <td class="stacktablecont">70</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">58</td>
+                <td class="stacktablecont">68</td>
+                <td class="stacktablecont">68</td>
+                <td class="stacktablecont">62</td>
+                <td class="stacktablecont">64</td>
+                <td class="stacktablecont">47</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">46</td>
+                <td class="stacktablecont">57</td>
+                <td class="stacktablecont">34</td>
+                <td class="stacktablecont">0</td>
+              </tr>
+
+              <tr class="stacktablerow2">
+                            <td  class="stacktablecont"   >22</td>
+                <td class="stacktablecont">22</td>
+                <td class="stacktablecont">24</td>
+                <td class="stacktablecont">16</td>
+                <td class="stacktablecont">14</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">22</td>
+                <td class="stacktablecont">17</td>
+                <td class="stacktablecont">16</td>
+                <td class="stacktablecont">20</td>
+                <td class="stacktablecont">19</td>
+                <td class="stacktablecont">31</td>
+                <td class="stacktablecont">60</td>
+                <td class="stacktablecont">60</td>
+                <td class="stacktablecont">60</td>
+                <td class="stacktablecont">60</td>
+                <td class="stacktablecont">60</td>
+                <td class="stacktablecont">11</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">1</td>
+                <td class="stacktablecont">21</td>
+                <td class="stacktablecont">23</td>
+                <td class="stacktablecont">14</td>
+                <td class="stacktablecont">0</td>
+              </tr>
+
+              <tr class="stacktablerow3">
+                <td class="stacktablecont">37.6</td>
+                <td class="stacktablecont">37.6</td>
+                <td class="stacktablecont">35.8</td>
+                <td class="stacktablecont">43,9</td>
+                <td class="stacktablecont">43.9</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">38.3</td>
+                <td class="stacktablecont">43.4</td>
+                <td class="stacktablecont">43.8</td>
+                <td class="stacktablecont">39.9</td>
+                <td class="stacktablecont">41.1</td>
+                <td class="stacktablecont">29</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0</td>
+                <td class="stacktablecont">0.7</td>
+                <td class="stacktablecont">29.9</td>
+                <td class="stacktablecont">37.2</td>
+                <td class="stacktablecont">20.6</td>
+                <td class="stacktablecont">0</td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
     </div>
