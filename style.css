@@ -29,6 +29,18 @@ body {
   border: 0.5px solid lightgrey;
 }
 
+.center_text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: rgba(59, 179, 113, 255);
+}
+.piechart_div {
+  position: relative;
+}
+
 .cardtwo {
   border: 1px solid grey;
   border-radius: 0.5rem;
